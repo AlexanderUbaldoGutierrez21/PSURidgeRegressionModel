@@ -65,13 +65,4 @@ plt.savefig('Ridge_Learning_Curves.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # PRINT OPTIMAL ALPHA
-print(f'Optimal alpha: {optimal_alpha:.6f}')
-
-# DESCRIPTION
-print("\nDescription:")
-print("The plot shows the mean training MSE and mean validation MSE as a function of the regularization parameter alpha.")
-print("Alpha is plotted on a logarithmic scale, with low penalization (small alpha) on the left and high penalization (large alpha) on the right.")
-print("As alpha increases, the model becomes more regularized, which typically increases the training error but can decrease overfitting.")
-print("The validation error initially decreases as alpha increases from very small values, reaches a minimum, and then increases.")
-print("The optimal alpha is chosen as the value that minimizes the mean validation MSE, which is {:.6f}.".format(optimal_alpha))
-print("This alpha provides the best balance between bias and variance for this dataset.")
+print(f'Optimal Alpha: {optimal_alpha:.6f}')
