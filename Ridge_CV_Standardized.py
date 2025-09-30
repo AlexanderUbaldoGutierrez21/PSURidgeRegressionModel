@@ -108,7 +108,3 @@ print(f'Unscaled optimal alpha: {opt_alpha_un:.6f} (val MSE={opt_val_un:.6f})')
 print(f'Scaled optimal alpha:   {opt_alpha_sc:.6f} (val MSE={opt_val_sc:.6f})')
 delta = opt_val_un - opt_val_sc
 print(f'Delta (unscaled - scaled) optimal val MSE: {delta:.6f}')
-print("\nInterpretation:")
-print("- Standardizing covariates enforces comparable feature scales so Ridge penalizes coefficients uniformly.")
-print("- After scaling, the optimal alpha often shifts (commonly larger) and validation error can improve when the original features have heterogeneous scales.")
-print("- Inspect the saved plots to compare curve shapes and the locations of the minima between unscaled and scaled settings.")
