@@ -61,7 +61,7 @@ plt.ylabel('Mean Squared Error')
 plt.title('Learning Curves for Ridge Regression (10-fold CV)')
 plt.legend()
 plt.grid(True)
-plt.savefig('ridge_learning_curves.png', dpi=300, bbox_inches='tight')
+plt.savefig('Ridge_Learning_Curves.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # PRINT OPTIMAL ALPHA
