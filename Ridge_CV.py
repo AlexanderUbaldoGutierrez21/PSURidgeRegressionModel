@@ -55,7 +55,7 @@ optimal_alpha = alphas[optimal_idx]
 plt.figure(figsize=(10, 6))
 plt.plot(alphas, train_mses, label='Mean Training MSE', marker='o')
 plt.plot(alphas, val_mses, label='Mean Validation MSE', marker='s')
-plt.xscale('Log')
+plt.xscale('log')
 plt.xlabel('Alpha (Log Scale)')
 plt.ylabel('Mean Squared Error')
 plt.title('Learning Curves for Ridge Regression (10-fold CV)')
