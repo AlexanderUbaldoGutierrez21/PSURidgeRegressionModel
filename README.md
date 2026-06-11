@@ -45,4 +45,4 @@ Compare MSE metrics across training, validation, and test sets to understand mod
 
 ## Research Purposes
 
-Designed for research purposes in regression analysis and regularization techniques. Penn State University (PSU), IST 557 Data Mining. Fall 2025.
+Designed for research purposes in regression analysis and regularization techniques. The repository includes dummy datasets (DataTrain_HW3Problem1.csv and DataTest_HW3Problem1.csv) for experimentation and model evaluation. Penn State University (PSU), IST 557 Data Mining. Fall 2025.
